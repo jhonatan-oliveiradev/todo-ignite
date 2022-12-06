@@ -1,0 +1,58 @@
+.task {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem;
+	width: 100%;
+	padding: 1rem;
+	background-color: var(--gray-500);
+	border: 1px solid var(--gray-400);
+	border-radius: 0.5rem;
+}
+
+.task p {
+	font-size: 0.875rem;
+	line-height: 1.18rem;
+	color: var(--gray-100);
+	margin-right: auto;
+}
+
+.checkContainer {
+	min-width: 1.125rem;
+	height: 1.125rem;
+	background: none;
+	border: none;
+}
+
+.checkContainer div {
+	width: 100%;
+	height: 100%;
+	border: 2px solid var(--blue);
+	border-radius: 50%;
+}
+
+.checkContainer svg {
+	width: 100%;
+	height: 100%;
+	color: var(--purple);
+}
+
+.deleteButton {
+	background: none;
+	border: none;
+	color: var(--gray-300);
+	transition: all 0.2s ease-in-out;
+}
+
+.deleteButton:hover {
+	color: var(--danger);
+}
+
+.checkContainer svg {
+	color: var(--purple);
+}
+
+.textCompleted {
+	text-decoration: line-through;
+	color: var(--gray-300);
+}
